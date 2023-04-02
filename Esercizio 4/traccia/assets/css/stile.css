@@ -1,0 +1,259 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    background-image: url(asset/image/sfondo.png);
+    font-family: Poppins, sans-serif;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+a {
+    color: lightblue;
+}
+
+.sfondo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+    background: white;
+    padding: 14px;
+    border-radius: 40px;
+    border: 2px solid lightblue;
+}
+/* HEADER */
+
+header, footer {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 28%, rgba(54,132,159,1) 61%, rgba(61,163,199,1) 67%);
+}
+
+header p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 8px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: unset;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header div {
+    padding: 0 48px;
+}
+
+header div img {
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul li i {
+    color: white;
+    margin-right: 4px;
+}
+/* MAIN */
+
+main {
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article p:first-of-type {
+    color: gray;
+    padding: 20px 0;
+}
+
+article p {
+    padding: 8px 0;
+}
+
+article p strong {
+    font-weight: 600;
+    color: deeppink;
+}
+
+article ul {
+    padding-left: 25px;
+}
+
+article ul, article ol {
+    padding-left: 25px;
+    color: black;
+}
+
+code {
+    background: gainsboro;
+    border: 1px solid#999;
+    border-radius: 5px;
+    padding: 2px 6px;
+}
+
+article ul li {
+    line-height: 1.8em;
+}
+
+article section {
+    background: lightgrey;
+    padding: 0px 18px 18px 18px;
+    margin-top:  28px;
+}
+
+article section h2 {
+    text-transform: uppercase;
+    position: relative;
+    top: -10px;
+    background-color: gray;
+    max-width: 70px;
+    padding: 7px 12px;
+    box-shadow: 3px 3px #444;
+}
+
+article section p {
+    color: black!important;
+}
+
+/* TABELLE */
+
+table {
+    width: 100%;
+    margin-bottom: -24px;
+}
+
+table caption {
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+thead {
+    background: rgb(34,124,195);
+}
+
+th {
+    padding: 12px 2px;
+    color: white;
+    border-right: solid 1px (255, 255, 255, 0.2);
+}
+
+tr {
+    padding: 7px 7px;
+}
+
+td {
+    padding: 7px;
+}
+
+tr:nth-child(even) {
+    background: lightgray;
+}
+
+tr:last-of-type {
+    border-bottom: 3px solid rgb(34,124,195);
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 280px;
+    margin: 12px 0;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+}
+/* FORM */
+
+input#user_email {
+    padding: 8px;
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    font-weight: 600;
+    background: rgb(34,124,195);
+    color: white;
+    border-radius: 8px;
+}
+/* ELEMENTI NELL' ASIDE */
+
+aside h2 {
+    padding: 24px;
+    text-align: center;
+}
+
+aside div {
+    margin: 8px 16px;
+    padding: 20px;
+    background: lightslategray;
+}
+
+aside div a {
+    font-weight: 600;
+}
+
+aside div p:first-of-type {
+    padding: 10px 30px 0;
+}
+
+aside div p:last-of-type {
+    text-align: right;
+    font-size: 0.8em;
+}
+/* FOOTER */
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 12px 0;
+}
+
+address a {
+    color: deeppink;
+}
+
+address {
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
